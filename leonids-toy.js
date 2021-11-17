@@ -7,7 +7,7 @@ const toys = [
     },
     {
         id: 2,
-        name: "Captian Lightning's Spaceship ",
+        name: "Captian Lightning's Spaceship",
         inStock: true,
         price: 26.99
     },
@@ -51,4 +51,8 @@ toys.push(newerToy)
 
 for (const toy of toys) {
     console.log(toy.price)
+}
+
+for (const toy of toys) {
+    console.log(`${toy.name} costs $${toy.price}`)
 }
